@@ -17,7 +17,7 @@ We stress-tested seven finalists against the official judging (live demo 35%, pr
 | Policy Compiler (live multi-stream audio moderation) | Safety filters may refuse the toxic audio it exists to flag; phones in one room hear each other; many existing products. |
 | Intent Interlock (voice commands checked slot by slot) | Its benchmark has been public since 2020, and it looks like Alexa. |
 
-LEDGER had the highest ceiling: the best live moment (the judge changes the set with their own hands, then sees red pins land on that spot in 3D), a clear proof story, every model with a real job, and the Decisions API at its core. Its risks were the overlap with the Cornell Studio team's MoveLog idea (all code here is new, written today) and cross-angle change detection, which we addressed with the plan-anchored design, the two-pair proof rule, and a measured test set.
+LEDGER had the highest ceiling: the best live moment (the judge changes the set with their own hands, then sees red pins land on that spot in 3D), a clear proof story, every model with a real job, and the Decisions API at its core. Its main risk was cross-angle change detection, which we addressed with the plan-anchored design, the two-pair proof rule, and a measured test set.
 
 ## Why a cardboard model apartment, not a real room
 LEDGER needs a floor plan that matches the filmed space, a real change made by the judge between two videos, and a space the AI can read. A tabletop model gives all three in about a minute:
